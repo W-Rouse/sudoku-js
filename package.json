@@ -1,0 +1,12 @@
+{
+    "scripts": {
+        "compile:sass": "node-sass sass/main.scss /style.css -w",
+        "server": "live-server"
+    },
+    "dependencies": {
+        "browserify": "^17.0.0",
+        "browserify-shim": "^3.8.14",
+        "save": "^2.4.0",
+        "sudoku-gen": "^1.0.0"
+    }
+}

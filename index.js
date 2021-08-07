@@ -1,4 +1,4 @@
-//Loads boards and their solutions
+
 var sudogen = require('sudoku-gen');
 const easyGen = sudogen.getSudoku("easy")
 const mediumGen = sudogen.getSudoku("medium")
@@ -29,7 +29,7 @@ window.onload = function(){
 }
 
 function startGame(){
-    console.log("Starto!");
+    console.log(hard[0]);
 }
 
 function id(id){
