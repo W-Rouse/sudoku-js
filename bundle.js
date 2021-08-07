@@ -164,6 +164,11 @@
                 selectedTile.textContent = selectedNum.textContent;
             }
             let tiles = qsa(".tile");
+            selectedNum.classList.remove("selected");
+
+            selectedNum= null;
+            
+            
             if(correctPuzzleCheck(tiles)){
                 endgame();
             }
