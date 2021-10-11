@@ -1,1 +1,3 @@
-# sudoku-js
+#Sudoku
+
+Simple game of sudoku written in JavaScript
